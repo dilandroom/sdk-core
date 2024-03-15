@@ -224,6 +224,46 @@ const ROOTSTOCK_ADDRESSES: ChainAddresses = {
   swapRouter02Address: '0x0B14ff67f0014046b4b99057Aec4509640b3947A'
 }
 
+const SONGBIRD_ADDRESSES: ChainAddresses = {
+  v3CoreFactoryAddress: '0x7145F8aeef1f6510E92164038E1B6F8cB2c42Cbb',
+  multicallAddress: '0xA51c76bEE6746cB487a7e9312E43e2b8f4A37C15',
+  quoterAddress: '0x11867e1b3348F3ce4FcC170BC5af3d23E07E64Df',
+  v3MigratorAddress: '0x048352d8dCF13686982C799da63fA6426a9D0b60',
+  nonfungiblePositionManagerAddress: '0xbC91e8DfA3fF18De43853372A3d7dfe585137D78',
+  tickLensAddress: '0x209AAda09D74Ad3B8D0E92910Eaf85D2357e3044',
+  swapRouter02Address: '0x7De04c96BE5159c3b5CeffC82aa176dc81281557'
+}
+
+const COSTON_ADDRESSES: ChainAddresses = {
+  v3CoreFactoryAddress: "0xBAfd6cCD2642E9f0A808B0C405243e0Af812C494",
+  multicallAddress: "0xd6598168BC0e686eE27345ae2c233e6730439931",
+  tickLensAddress: "0x9f836EfE6A15DE81ab0c3F2076de985333b8EB4D",
+  nonfungiblePositionManagerAddress: "0x7f19286b09E8bC4DB60bE2Ff20AF9C2deEbF0b5D",
+  v3MigratorAddress: "0xA45665702bfE97C0846E6BEfc158fD837C7A1d85",
+  quoterAddress: "0x727b97d266d9d34656D9ECef3F1e5640CCCE2C9f",
+  swapRouter02Address: "0xD2E065B555f17D61E067A485779fbfb4da233e1b"
+}
+
+const FLARE_ADDRESSES: ChainAddresses = {
+  v3CoreFactoryAddress: '0x7145F8aeef1f6510E92164038E1B6F8cB2c42Cbb',
+  multicallAddress: '0xA51c76bEE6746cB487a7e9312E43e2b8f4A37C15',
+  quoterAddress: '0x11867e1b3348F3ce4FcC170BC5af3d23E07E64Df',
+  v3MigratorAddress: '0x048352d8dCF13686982C799da63fA6426a9D0b60',
+  nonfungiblePositionManagerAddress: '0xbC91e8DfA3fF18De43853372A3d7dfe585137D78',
+  tickLensAddress: '0x209AAda09D74Ad3B8D0E92910Eaf85D2357e3044',
+  swapRouter02Address: '0x7De04c96BE5159c3b5CeffC82aa176dc81281557'
+}
+
+const COSTON2_ADDRESSES: ChainAddresses = {
+  v3CoreFactoryAddress: '0x7145F8aeef1f6510E92164038E1B6F8cB2c42Cbb',
+  multicallAddress: '0xA51c76bEE6746cB487a7e9312E43e2b8f4A37C15',
+  quoterAddress: '0x11867e1b3348F3ce4FcC170BC5af3d23E07E64Df',
+  v3MigratorAddress: '0x048352d8dCF13686982C799da63fA6426a9D0b60',
+  nonfungiblePositionManagerAddress: '0xbC91e8DfA3fF18De43853372A3d7dfe585137D78',
+  tickLensAddress: '0x209AAda09D74Ad3B8D0E92910Eaf85D2357e3044',
+  swapRouter02Address: '0x7De04c96BE5159c3b5CeffC82aa176dc81281557'
+}
+
 export const CHAIN_TO_ADDRESSES_MAP: Record<SupportedChainsType, ChainAddresses> = {
   [ChainId.MAINNET]: MAINNET_ADDRESSES,
   [ChainId.OPTIMISM]: OPTIMISM_ADDRESSES,
@@ -244,7 +284,11 @@ export const CHAIN_TO_ADDRESSES_MAP: Record<SupportedChainsType, ChainAddresses>
   [ChainId.BASE_GOERLI]: BASE_GOERLI_ADDRESSES,
   [ChainId.ZORA]: ZORA_ADDRESSES,
   [ChainId.ZORA_SEPOLIA]: ZORA_SEPOLIA_ADDRESSES,
-  [ChainId.ROOTSTOCK]: ROOTSTOCK_ADDRESSES
+  [ChainId.ROOTSTOCK]: ROOTSTOCK_ADDRESSES,
+  [ChainId.SONGBIRD]: SONGBIRD_ADDRESSES,
+  [ChainId.COSTON]: COSTON_ADDRESSES,
+  [ChainId.COSTON2]: COSTON2_ADDRESSES,
+  [ChainId.FLARE]: FLARE_ADDRESSES
 }
 
 /* V3 Contract Addresses */
